@@ -1,12 +1,3 @@
-
-
-function App() {
-
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
+export default function Square() {
+  return <button className="square">X</button>;
 }
-
-export default App
